@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+
+   
+                     
+
+                
+        <!-- Formulario -->
+        
+                <div class="formulario center">
+
+                    <h1>Tienda UMG</h1>
+                    
+                    
+                    <form action="" class="contenido-seccion" >
+                        <h2>Datos del cliente</h2>
+
+                        <div class="inputbox">
+                            <input type="text" required="required">
+                            <span>Email</span>
+                        </div>
+
+                        <div class="inputbox">
+                            <input type="text"  id="nombreCliente" required="required">
+                            <span>Nombre</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text"  id="apellidoCliente" required="required">
+                            <span>Apellido</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="number"  id="edadCliente" required="required">
+                            <span>Edad</span>
+                        </div>
+
+                        <h2>Datos del vendedor</h2>
+                        <div class="inputbox">
+                            <input type="text"  id="nombreVendedor" required="required">
+                            <span>Nombre</span>
+                        </div>
+                        
+                        <h2>Datos del producto</h2>
+                        
+                        <div class="inputbox">
+                            <select name="producto" id="producto" required>
+                                <option value="" disabled selected> Selecciona el producto </option>
+                                <option value="Laptop">laptop</option>
+                                <option value="Mouse">Mouse</option>
+                                <option value="teclado">teclado</option>
+                                <option value="Camara">Camara</option>
+                                <option value="television">television</option>
+                                <option value="Microfono">Microfono</option>
+                                <option value="Audifono">Audifono</option>
+                                <option value="Celular">Celular</option>
+                                <option value="Congelador">Congelador</option>
+                                <option value="Cargador">Cargador</option>
+                                <option value="Radio">Radio</option>
+                                <option value="Bocina">Bocina</option>
+    
+                            </select>
+                            
+                        </div>
+                       
+                        <div class="inputbox">
+                            <input type="text"  id="codigo" required="required">
+                            <span>Codigo</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text"  id="precio" required="required">
+                            <span>Precio</span>
+                        </div>
+
+                        
+                       
+                        <div class="inputbox">
+                            <input type="button" value="Guardar datos" onClick="copiarDatos()">
+                          </div>
+
+                        
+                    </form>
+
+                    <textarea name="texto" id="texto"  placeholder="Datos"></textarea>
+
+                </div>
+                
+              
+        
+    
+        <script src="./index.js"></script>
+
+    <footer></footer>
+</body>
+</html>
